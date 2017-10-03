@@ -1,0 +1,8 @@
+-installer git
+-git init //Pour initialiser
+-git add . //Pour appliquer les modifications sur le dossier git, pour la première fois, il va le créer
+-git remote add origin "Le lien copié sur le dossier créé sur github ou gitlab" //créer le lien vers le dossier où il faut garder sur le net
+-git config --global user.email "votre mail sur github ou gitlab" //Pour faire les configurations
+-git config --global user.name "votre nom d'utilisation dur github ou gitlab" // pour faire les configurations 
+-git commit -m "Message donné au changement appliqué sur le projet github" // Appliquer les changements
+-git push origin master //Envoyer les changements sur votre compte github ou gitlab
