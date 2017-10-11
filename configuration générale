@@ -1,0 +1,19 @@
+or create a new repository on the command line
+
+echo "# CSP" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/DJOMOgabin/CSP.git
+git push -u origin master
+
+[OPTION]
+-git config --global user.email "votre mail sur github ou gitlab" //Pour faire les configurations
+-git config --global user.name "votre nom d'utilisation dur github ou gitlab" // pour faire les configurations
+
+
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/DJOMOgabin/CSP.git
+git push -u origin master
